@@ -21,6 +21,10 @@ int frogJump(int n, vector<int> &heights)
 
 }
 
+        
+        
+        
+        
 tabulation   dp 
 
 #include <bits/stdc++.h> 
@@ -43,6 +47,9 @@ int frogJump(int n, vector<int> &heights)
    return f(heights,n-1,dp); 
 
 }
+        
+        
+        
 
 //space complexity reduce to o(1)
 
